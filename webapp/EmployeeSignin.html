@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="emp_details" method="post">
+<h1 align="center">Enter Employee Details</h1>
+<center>
+<label>Name</label>: <input  type="text" required="required" name="name"><br><br>
+<label>DOB</label>: <input type="date" required="required" name="date"><br><br>
+<label>Address</label>: <textarea rows="6" cols="50" value="address" name="address"></textarea><br><br>
+<label>Gender</label>: <input type="radio" name="gender" value="1"> Male
+                       <input type="radio" name="gender" value="2"> Female<br><br>
+<label>Salary</label>: <input type="text" name="idnumber" pattern="[0-9]{5}" plceholder="Enter Number Only"><br><br>
+<button>Submit</button>
+</center>
+</form>
+</body>
+</html>
